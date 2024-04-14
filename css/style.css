@@ -7,22 +7,60 @@ body {
     font-family: "Questrial", sans-serif;
 }
 
-img {
-    max-width: 100%;
+.hero {
+    padding: 120px 40px 20px 40px;
 }
 
-.card {
-    padding-top: 50px;
-}
-
-.card-title {
-    padding-top: 50px;
+h1 {
     text-align: center;
+    font-size: 64px;
+    color: white;
     font-weight: bold;
-    font-size: 36px;
-    font-style: italic;
 }
 
-.card-text {
+h2 {
     text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+.contact-button {
+    background-color: #FF0000;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: rgba(175, 1, 1, 0.2) 0px 7px 29px 0px;
+}
+
+.find-us-button {
+    background-color: #FF0000;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: rgba(175, 1, 1, 0.2) 0px 7px 29px 0px;
+}
+
+.buttons :hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    max-height: 500px;
+    max-width: 70%;
+    float: right;
+    display: block;
+    text-align: right;
+   
 }
