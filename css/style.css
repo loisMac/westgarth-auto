@@ -1,0 +1,28 @@
+.navbar {
+    background-color: black;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #000000, #070707, #0d0d0d, #121212, #161616);
+    font-family: "Questrial", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    padding-top: 50px;
+}
+
+.card-title {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.card-text {
+    text-align: center;
+}
