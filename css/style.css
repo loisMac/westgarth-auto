@@ -55,6 +55,7 @@ h2 {
 .buttons :hover {
     text-decoration: none;
     color: black;
+    transition: ease-in-out;
 }
 img {
     max-height: 500px;
